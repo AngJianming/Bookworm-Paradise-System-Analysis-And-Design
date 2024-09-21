@@ -17,16 +17,16 @@ All these services and information will be maintained by the bookstores administ
 
 ## The following are the possible minimum requirements or functions for the Bookworm Paradise management system:
 ### Customer functions:
-1.	Register
-2.	Login
-3.	Purchase Book
-4.	Make Payment
-5.	Receive Receipt and Book
+1.	`Register`
+2.	`Login`
+3.	`Purchase Book`
+4.	`Make Payment`
+5.	`Receive Receipt and Book`
 
 ### Staff (BWP) functions:
-1.	Login
-2.	Add Booking Information
-3.	Process Payment
-4.	Generate Receipt and Token
+1.	`Login`
+2.	`Add Booking Information`
+3.	`Process Payment`
+4.	`Generate Receipt and Token`
 
 *Note: You are not only limited to the above requirements. Any other relevant requirements to ease the process of managing the Bookworm Paradise common operations can be added if you think they are viable. 
