@@ -1592,7 +1592,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rnGbKKczsHRxMEJqWY5H" name="Data Flow Diagram">
-    <mxGraphModel dx="1285" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2855,7 +2855,7 @@
         <mxCell id="pJabgSr8_UB_GHd9vf-V-559" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="3371" y="859" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pJabgSr8_UB_GHd9vf-V-560" value="PAYMENT SYSTEM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pJabgSr8_UB_GHd9vf-V-559">
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-560" value="PAYMENT SYSTEMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pJabgSr8_UB_GHd9vf-V-559">
           <mxGeometry width="160" height="79.99999999999999" as="geometry" />
         </mxCell>
         <mxCell id="pJabgSr8_UB_GHd9vf-V-561" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="pJabgSr8_UB_GHd9vf-V-559" source="pJabgSr8_UB_GHd9vf-V-560" target="pJabgSr8_UB_GHd9vf-V-560">
@@ -2924,15 +2924,16 @@
         <mxCell id="pJabgSr8_UB_GHd9vf-V-578" value="INVOICE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3591" y="899" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pJabgSr8_UB_GHd9vf-V-579" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pJabgSr8_UB_GHd9vf-V-492" target="pJabgSr8_UB_GHd9vf-V-480">
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-579" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pJabgSr8_UB_GHd9vf-V-492" target="pJabgSr8_UB_GHd9vf-V-639">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3901" y="299" />
+              <mxPoint x="3660" y="310" />
+              <mxPoint x="3660" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pJabgSr8_UB_GHd9vf-V-580" value="ONLY LOGIN&lt;div&gt;AS STAFF OR ADMIN&lt;/div&gt;&lt;div&gt;CAN ACCESS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3686" y="299" width="140" height="60" as="geometry" />
+          <mxGeometry x="3588" y="307" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pJabgSr8_UB_GHd9vf-V-581" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="3781" y="859" width="160" height="80" as="geometry" />
@@ -3124,6 +3125,43 @@
         </mxCell>
         <mxCell id="pJabgSr8_UB_GHd9vf-V-637" value="REJECTED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3304" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-638" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3761" y="264" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-639" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;ADMIN ID&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;STAFF ID&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pJabgSr8_UB_GHd9vf-V-638">
+          <mxGeometry width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-640" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="pJabgSr8_UB_GHd9vf-V-638" source="pJabgSr8_UB_GHd9vf-V-639" target="pJabgSr8_UB_GHd9vf-V-639">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="86.15384615384613" as="sourcePoint" />
+            <mxPoint x="270" y="62.22222222222222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-641" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;6.02&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pJabgSr8_UB_GHd9vf-V-638">
+          <mxGeometry x="50" y="0.4786324786324786" width="60" height="14.358974358974358" as="geometry" />
+        </mxCell>
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-642" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pJabgSr8_UB_GHd9vf-V-639" target="pJabgSr8_UB_GHd9vf-V-480">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3900" y="440" />
+              <mxPoint x="3900" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-643" value="ACCESS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3835" y="405" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-644" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pJabgSr8_UB_GHd9vf-V-639" target="pJabgSr8_UB_GHd9vf-V-492">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3660" y="290" />
+              <mxPoint x="3660" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pJabgSr8_UB_GHd9vf-V-645" value="NOT STAFF OR ADMIN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3593" y="263" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
