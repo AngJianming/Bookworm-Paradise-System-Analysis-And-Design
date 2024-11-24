@@ -1,5 +1,5 @@
 # Bookworm Paradise - System Analysis & Design (SAAD)
-This is a System Analysis &amp; Design project and there will be little to no codes, this is solely an Data Flow Diagram project to help myself understand more about the backgroud of a System Design.
+This is a System Analysis &amp; Design project and this is solely an Data Flow Diagram project to help myself understand more about the backgroud of a System Design.
 
 # CASE STUDY: BOOKWORM PARADISE
 CASE STUDY: BOOKWORM PARADISE
