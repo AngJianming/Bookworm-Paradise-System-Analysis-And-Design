@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://https://bookworm-paradise.herokuapp.com/sitemap.xml
