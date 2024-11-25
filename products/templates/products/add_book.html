@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class="container cart-container">
+    <!-- Page with form allowing book addition -->
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h2 class="mb-4 mt-5">Product Management</h2>
+            <p>Add new books here</p>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form method="POST" action="{% url 'add_book' %}" class="form mb-2" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form | crispy }}
+                <div class="mb-5">
+                    <a class="btn shop-now-btn" href="{% url 'books' %}">Cancel</a>
+                    <button class="btn shop-now-btn" type="submit">Add Book</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

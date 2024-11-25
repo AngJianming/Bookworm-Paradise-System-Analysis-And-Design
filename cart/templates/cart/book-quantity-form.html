@@ -1,0 +1,16 @@
+<form class="form update-form" method="POST" action="{% url 'modify_cart' item.item_id %}">
+    {% csrf_token %}
+    <div class="form-row">
+        <div class="col-12">
+            <div class="form-group">
+                <div class="input-group">
+                    <input class="form-control form-control-sm qty_input" type="number" name="quantity"
+                        value="{{ item.quantity }}" min="0" max="99">
+                </div>
+            </div>
+        </div>
+        <input type="hidden" name="redirect_url" value="{{ request.path }}">
+    </div>
+</form>
+<input type="submit" class="update-book btn btn-sm" value="Update">
+<input type="submit" class="delete-book btn btn-sm" id="delete_{{ item.item_id }}" value="Delete">
