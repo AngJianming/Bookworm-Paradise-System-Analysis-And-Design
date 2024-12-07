@@ -4,7 +4,9 @@ This is a System Analysis &amp; Design project and this is solely an Data Flow D
 # CASE STUDY: BOOKWORM PARADISE
 CASE STUDY: BOOKWORM PARADISE
 
-Bookworm Paradise (BWP) is major bookstore in Malaysia that houses a grand collection of books published across different generations and genres. Located at the heart of Kuala Lumpur, the bookstore takes pride at providing the adequate resources seeked by hundreds of customers who walk into their ‘paradise’ daily! Their primary service is naturally centred to buying and selling any form of reading materials – novel, biography, storybook, academic journal, comics, magazines – to name a few. Recently, BWP has decided to expand their services to include some new features such as book rentals similar to libraries, e-books viewing as well as in-house reading. Extensively, having conquered the local city market, they now wish to venture into the national and eventually international markets. For this, BWP will require a digital platform to showcase their expansive collection and allow customers worldwide to expound their multiple services.
+<div align="justify">
+
+Bookworm Paradise (BWP) is a major bookstore in Malaysia that houses a grand collection of books published across different generations and genres. Located at the heart of Kuala Lumpur, the bookstore takes pride in providing the adequate resources sought by hundreds of customers who walk into their ‘paradise’ daily! Their primary service is naturally centered on buying and selling any form of reading materials – novel, biography, storybook, academic journal, comics, magazines – to name a few. Recently, BWP has decided to expand their services to include some new features such as book rentals similar to libraries, e-books viewing as well as in-house reading. Extensively, having conquered the local city market, they now wish to venture into the national and eventually international markets. For this, BWP will require a digital platform to showcase their expansive collection and allow customers worldwide to expound their multiple services.
 
 The primary operations are expected to be standard purchasing of books/ reading materials from various publishers, housing them and then selling them to prospective buyers. However, customers will now have the option of viewing and buying their desired books online as well. They will only be required to register as a member via the online system to access this privilege. The books will then be delivered right to their doorstep. Similarly, book rental will be a new service provided for customers who do wish to hold on to their books forever. In both cases, customers will need to make the due payments upfront and provide relevant details such as delivery address and contact number. For the book rentals, returned books will inspected and fines may be issued for damaged copies. Also, customers will need to pre-specify the duration period for rentals. 
 
@@ -14,6 +16,7 @@ To attract more customers, BWP is willing to offer various discounts for all the
 
 All these services and information will be maintained by the bookstores administrator who will then report to BWP’s manager. The managers of BWP would also be able to print standards reports such as a list of books sold/rented/read online, membership subscription and revenue gained. The BWP owners have approached you to plan, analyse, design, and develop a prototype for their venture that should be able to handle book purchases, sales, rentals and all mentioned services. They have allocated RM 80,000 for the project and the estimated timeline is four (4) months.
 
+</div>
 
 ## The following are the possible minimum requirements or functions for the Bookworm Paradise management system:
 ### Customer functions:
